@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QhuyReg.LOL</title>
+<style>
+*{margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif;}
+body{background: linear-gradient(120deg, #ffe6f2, #ffecf7); text-align:center; padding:40px 20px;}
+.box{background:#fff; border-radius:20px; padding:35px 25px; max-width:520px; margin:0 auto; box-shadow:0 6px 15px #f8c8e0;}
+h1{color:#e84b9a; margin-bottom:20px; font-size:28px;}
+p{color:#7a2e63; font-size:17px; line-height:1.6; margin-bottom:30px;}
+h2{color:#d63384; font-size:20px; margin:25px 0 15px;}
+.gia{width:100%; border-collapse:collapse; margin-bottom:15px;}
+.gia tr{background:#ffe6f2;}
+.gia tr:nth-child(even){background:#ffdff0;}
+.gia td{padding:12px; border-radius:8px; color:#802b69; font-weight:500;}
+.ptnap a{display:inline-block; width:100%; text-decoration:none; color:#d63384; font-weight:600; line-height:2.2; padding:8px 12px; background:#ffe6f2; border-radius:10px; margin:5px 0; transition:0.3s;}
+.ptnap a:hover{background:#ffc8e0;}
+.danhsach{width:100%; border-collapse:collapse; margin:15px 0 25px;}
+.danhsach th{background:#f8c8e0; color:#a02870; padding:10px; border-radius:8px;}
+.danhsach tr{background:#ffe6f2;}
+.danhsach tr:nth-child(even){background:#ffdff0;}
+.danhsach td{padding:10px; border-radius:6px; color:#802b69; font-weight:500;}
+.note{color:#c23082; font-style:italic; margin-bottom:30px; font-weight:500;}
+.lienhe{display:flex; justify-content:center; gap:20px; margin-top:30px; flex-wrap:wrap;}
+.kem{display:flex; flex-direction:column; align-items:center; gap:8px; text-decoration:none;}
+img{width:65px; height:65px; border-radius:12px;}
+span{color:#d63384; font-weight:600; font-size:15px;}
+</style>
+</head>
+<body>
+<div class="box">
+  <h1>QhuyReg.LOL 💗</h1>
+  <p>💖 Chào bạn đến với QhuyReg.LOL 💖<br>
+  Nơi kết nối đam mê, đồng hành cùng chơi game vui, trao đổi thông tin uy tín – luôn thân thiện, trung thực và cố gắng phục vụ tốt nhất mọi lúc!<br>
+  Hãy tham khảo gói dịch vụ & liên hệ qua kênh bên dưới để được hỗ trợ nhanh chóng nhé 💗</p>
+
+  <h2>💎 Nạp Liên Quân Mobile</h2>
+  <table class="gia">
+    <tr><td>100k</td><td>👉 350 Quân Huy</td></tr>
+    <tr><td>200k</td><td>👉 800 Quân Huy</td></tr>
+    <tr><td>500k</td><td>👉 1.500 Quân Huy</td></tr>
+  </table>
+
+  <h2>🔥 Nạp Yong Heroes</h2>
+  <table class="gia">
+    <tr><td>100k</td><td>👉 1.000 KNB</td></tr>
+    <tr><td>200k</td><td>👉 2.000 KNB</td></tr>
+    <tr><td>500k</td><td>👉 6.500 KNB</td></tr>
+  </table>
+
+  <h2>⚡ Nạp Tốc Chiến</h2>
+  <p style="color:#802b69; font-weight:500;">Tùy theo số lượng bạn cần → tính giá nhân với 3 💎</p>
+
+  <h2>💳 Phương thức nạp tiền (nhấn xem mã thanh toán)</h2>
+  <div class="ptnap">
+    <a href="https://q.me-qr.com/v5ec3oxs" target="_blank">✅ Nạp chuyển khoản Ngân hàng / VietQR</a>
+    <a href="https://q.me-qr.com/v5ec3oxs" target="_blank">✅ Nạp bằng Thẻ cào điện thoại</a>
+    <a href="https://q.me-qr.com/v5ec3oxs" target="_blank">✅ Nạp ví điện tử MoMo</a>
+  </div>
+
+  <h2>🏆 Top Nạp</h2>
+  <table class="danhsach">
+    <tr><th>Tên khách hàng</th><th>Số tiền đã nạp</th></tr>
+    <tr><td>Anh Hoàng Minh Tuấn</td><td>5.000.000 VNĐ</td></tr>
+    <tr><td>Chị Nguyễn Thị Lan</td><td>4.500.000 VNĐ</td></tr>
+    <tr><td>Anh Trần Văn Hùng</td><td>4.200.000 VNĐ</td></tr>
+    <tr><td>Anh Lê Quốc Huy</td><td>3.800.000 VNĐ</td></tr>
+    <tr><td>Chị Phạm Thu Hà</td><td>3.250.000 VNĐ</td></tr>
+    <tr><td>Anh Vũ Thành Đạt</td><td>2.800.000 VNĐ</td></tr>
+    <tr><td>Anh Đặng Hải Long</td><td>2.500.000 VNĐ</td></tr>
+    <tr><td>Chị Bùi Ngọc Ánh</td><td>2.000.000 VNĐ</td></tr>
+    <tr><td>Anh Nguyễn Văn Sơn</td><td>1.600.000 VNĐ</td></tr>
+    <tr><td>Anh Lâm Hoài Nam</td><td>1.250.000 VNĐ</td></tr>
+  </table>
+
+  <p class="note">✨ Nạp nhanh trong ngày, bảo mật uy tín ✨</p>
+
+  <div class="lienhe">
+    <a href="Điền_link_Zalo_của_bạn_ở_đây" target="_blank" class="kem">
+      <img src="https://i.imgur.com/7VjZpXQ.png" alt="Zalo">
+      <span>Zalo</span>
+    </a>
+    <a href="Điền_link_Facebook_của_bạn_ở_đây" target="_blank" class="kem">
+      <img src="https://i.imgur.com/4LqRqLb.png" alt="Facebook">
+      <span>Facebook</span>
+    </a>
+    <a href="https://t.me/qhuyreglol" target="_blank" class="kem">
+      <img src="https://i.imgur.com/0yqRkLq.png" alt="Telegram">
+      <span>Telegram</span>
+    </a>
+  </div>
+</body>
+</html>
