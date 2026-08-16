@@ -117,12 +117,20 @@ button:active{transform:scale(0.98);}
     transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
 }
 .khung-an.mo-ra{
-    max-height:350px;
+    max-height:420px;
     opacity:1;
     padding:18px 12px;
     border:1px solid #f8c8e0;
 }
-.khung-an img{max-width:200px; border-radius:8px; margin:10px auto; display:block; box-shadow:0 3px 8px rgba(0,0,0,0.1);}
+/* === Ảnh mã QR cân đối rõ nét === */
+.khung-an img{
+    width:220px;
+    height:auto;
+    margin:10px auto;
+    display:block;
+    border-radius:8px;
+    box-shadow:0 3px 8px rgba(0,0,0,0.1);
+}
 .ma-giao-dich{font-size:22px; font-weight:bold; color:#e53935; padding:8px; letter-spacing:2px;}
 
 /* === Bảng Top Nạp nổi bật === */
@@ -147,7 +155,7 @@ button:active{transform:scale(0.98);}
 }
 .note strong{color:#b71c1c; font-size:16px;}
 
-/* === Khối liên hệ hình ảnh rõ nét, hiệu ứng bay lên === */
+/* === Khối liên hệ biểu tượng mới cập nhật, hiệu ứng bay lên nhẹ === */
 .lienhe{display:flex; justify-content:center; gap:25px; margin-top:30px; flex-wrap:wrap;}
 .kem{
     display:flex;
@@ -166,11 +174,12 @@ button:active{transform:scale(0.98);}
     transform: translateY(-7px);
     box-shadow:0 6px 12px rgba(214,51,132,0.2);
 }
+/* Kích thước đồng đều, giữ tỉ lệ gốc không méo */
 .kem img{
-    width:70px;
-    height:70px;
+    width:65px;
+    height:65px;
     object-fit:contain;
-    border-radius:14px;
+    border-radius:12px;
 }
 .kem span{color:#c2185b; font-weight:bold; font-size:16px;}
 
@@ -182,6 +191,7 @@ a:hover{text-decoration:underline;}
 <div class="box">
   <h1>🎮 QHUYREG.LOL 💗</h1>
 
+  <!-- Hiệu ứng chữ chạy liên tục giới thiệu dịch vụ -->
   <div class="chuchay">
     <div class="noidungchuchay">✨ Chào quý khách! Nạp Liên Quân • Yong Heroes • Tốc Chiến giá tốt nhất, xử lý siêu nhanh, bảo mật tuyệt đối, hỗ trợ tận tâm 24/7 ✨</div>
   </div>
@@ -205,14 +215,16 @@ a:hover{text-decoration:underline;}
   <h2>⚡ Nạp Tốc Chiến</h2>
   <p>💵 Giá cực ưu đãi: <strong>100 Quân Huy = 30.000đ</strong> – tính theo số lượng bạn cần, báo giá ngay khi liên hệ!</p>
 
+  <!-- 💳 Đã thay đúng ảnh QR thanh toán mới -->
   <h2>💳 Thanh Toán Ngay</h2>
   <button onclick="toggleKhung('khungQR')">👁️ Hiển thị / Ẩn Mã QR Thanh Toán</button>
   <div id="khungQR" class="khung-an">
-    <p>Quét mã bằng MoMo • VietQR • Ngân hàng chuyển tiền</p>
-    <img src="https://q.me-qr.com/v5ec3oxs" alt="https://qr1.me-qr.com/vi/data/image-pack/v5ec3oxs">
-    <p>Nội dung chuyển: <strong>NAP + Tên tài khoản + Tên gói</strong> để xác nhận nhanh chóng!</p>
+    <p>✅ Quét mã bằng MoMo • VietQR • Ngân hàng chuyển tiền</p>
+    <img src="https://i.ibb.co/k22hQSK9/IMG-20260817-015230.jpg" alt="Mã QR thanh toán chuyển khoản MoMo/VietQR">
+    <p><strong>Nội dung chuyển khoản:</strong> NAP + Tên tài khoản game + Tên gói nạp để xác nhận nhanh chóng!</p>
   </div>
 
+  <!-- Tạo mã giao dịch có hiệu ứng hiện lên rõ màu đỏ nổi bật -->
   <h2>🔑 Nhận Mã Theo Dõi Giao Dịch</h2>
   <button onclick="taoMaGiaoDich()">🎲 Tạo mã riêng duy nhất của tôi</button>
   <div id="khungMa" class="khung-an">
@@ -240,17 +252,18 @@ a:hover{text-decoration:underline;}
     💬 <strong>Lưu ý:</strong> Nếu có yêu cầu số lượng lớn hoặc gói đặc biệt vui lòng nhắn tin Zalo để được báo giá ưu đãi tốt nhất & hỗ trợ chi tiết tận tình!
   </div>
 
+  <!-- ✅ Đã cập nhật đúng từng biểu tượng Zalo / Facebook / Telegram theo yêu cầu -->
   <div class="lienhe">
     <a href="https://zalo.me/0334583041" target="_blank" class="kem">
-      <img src="https://i.imgur.com/7VjZpXQ.png" alt="Biểu tượng Zalo hỗ trợ">
+      <img src="https://i.ibb.co/7tGwN5tj/unnamed-800x480.png" alt="Biểu tượng Zalo hỗ trợ">
       <span>Zalo</span>
     </a>
     <a href="Điền_link_Facebook_của_bạn_ở_đây" target="_blank" class="kem">
-      <img src="https://i.imgur.com/4LqRqLb.png" alt="Biểu tượng Facebook">
+      <img src="https://i.ibb.co/KxYqJSrR/Facebook-Logo-2019.png" alt="Biểu tượng Facebook">
       <span>Facebook</span>
     </a>
     <a href="https://t.me/qhuyreglol" target="_blank" class="kem">
-      <img src="https://i.imgur.com/0yqRkLq.png" alt="Biểu tượng kênh Telegram">
+      <img src="https://i.ibb.co/wh4MV5dc/logo-telegram-inkyhtuatso-3-01-30-14-00-42.jpg" alt="Biểu tượng kênh Telegram">
       <span>Telegram</span>
     </a>
   </div>
@@ -258,11 +271,13 @@ a:hover{text-decoration:underline;}
 </div>
 
 <script>
+// Hiện/ẩn khung trượt mềm mại có hiệu ứng mờ rõ dần
 function toggleKhung(idKhung){
     let khung = document.getElementById(idKhung);
     khung.classList.toggle('mo-ra');
 }
 
+// Tạo mã 6 số ngẫu nhiên + hiệu ứng nhấp nháy nhẹ khi xuất hiện
 function taoMaGiaoDich(){
     let maSo = '';
     for(let i=0; i<6; i++) maSo += Math.floor(Math.random() * 10);
@@ -283,4 +298,5 @@ function taoMaGiaoDich(){
 </style>
 
 </body>
-</html>
+    </html>
+    
